@@ -94,7 +94,13 @@ jQuery(document).ready(function($) {
     	$('html,body').animate({scrollTop:$('#518').offset().top}, 1000);
   	});
   	$('.next-section .go-to-519').click(function() {
-    	$('html,body').animate({scrollTop:$('#517').offset().top}, 1000);
+    	$('html,body').animate({scrollTop:$('#519').offset().top}, 1000);
+  	});
+  	$('.next-section .go-to-store').click(function() {
+    	$('html,body').animate({scrollTop:$('#store').offset().top}, 1000);
+  	});
+  	$('.next-section .go-to-who').click(function() {
+    	$('html,body').animate({scrollTop:$('#who').offset().top}, 1000);
   	});
   	$('.next-section .go-to-page-top').click(function() {
     	$('html,body').animate({scrollTop:$('#page-top').offset().top}, 1000);
