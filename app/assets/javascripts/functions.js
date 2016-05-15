@@ -2,14 +2,18 @@
 /* Background Images
 -------------------------------------------------------------------*/
 var  pageTopImage = jQuery('#page-top').data('background-image');
-var  aboutImage = jQuery('#about').data('background-image');
-var  subscribeImage = jQuery('#subscribe').data('background-image');
-var  contactImage = jQuery('#contact').data('background-image');
+var  aboutImage = jQuery('#517').data('background-image');
+var  aboutImage = jQuery('#518').data('background-image');
+var  aboutImage = jQuery('#519').data('background-image');
+var  subscribeImage = jQuery('#store').data('background-image');
+var  contactImage = jQuery('#who').data('background-image');
 
 if (pageTopImage) {  jQuery('#page-top').css({ 'background-image':'url(' + pageTopImage + ')' }); };
-if (aboutImage) {  jQuery('#about').css({ 'background-image':'url(' + aboutImage + ')' }); };
-if (subscribeImage) {  jQuery('#subscribe').css({ 'background-image':'url(' + subscribeImage + ')' }); };
-if (contactImage) {  jQuery('#contact').css({ 'background-image':'url(' + contactImage + ')' }); };
+if (aboutImage) {  jQuery('#517').css({ 'background-image':'url(' + aboutImage + ')' }); };
+if (aboutImage) {  jQuery('#518').css({ 'background-image':'url(' + aboutImage + ')' }); };
+if (aboutImage) {  jQuery('#519').css({ 'background-image':'url(' + aboutImage + ')' }); };
+if (subscribeImage) {  jQuery('#store').css({ 'background-image':'url(' + subscribeImage + ')' }); };
+if (contactImage) {  jQuery('#who').css({ 'background-image':'url(' + contactImage + ')' }); };
 
 /* Background Images End
 -------------------------------------------------------------------*/
@@ -83,14 +87,14 @@ jQuery(document).ready(function($) {
 
 	/* Next Section   
 	-------------------------------------------------------------------*/
-	$('.next-section .go-to-about').click(function() {
-    	$('html,body').animate({scrollTop:$('#about').offset().top}, 1000);
+	$('.next-section .go-to-517').click(function() {
+    	$('html,body').animate({scrollTop:$('#517').offset().top}, 1000);
   	});
-  	$('.next-section .go-to-subscribe').click(function() {
-    	$('html,body').animate({scrollTop:$('#subscribe').offset().top}, 1000);
+  	$('.next-section .go-to-518').click(function() {
+    	$('html,body').animate({scrollTop:$('#518').offset().top}, 1000);
   	});
-  	$('.next-section .go-to-contact').click(function() {
-    	$('html,body').animate({scrollTop:$('#contact').offset().top}, 1000);
+  	$('.next-section .go-to-519').click(function() {
+    	$('html,body').animate({scrollTop:$('#517').offset().top}, 1000);
   	});
   	$('.next-section .go-to-page-top').click(function() {
     	$('html,body').animate({scrollTop:$('#page-top').offset().top}, 1000);
